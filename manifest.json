@@ -1,0 +1,19 @@
+{
+  "name": "Trade Goals",
+  "short_name": "Trade Goals",
+  "description": "Calculadora de metas diárias para traders",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1f1f2e",
+  "theme_color": "#6200ee",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ],
+  "orientation": "any",
+  "categories": ["finance", "productivity"],
+  "lang": "pt-BR"
+}
