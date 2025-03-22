@@ -32,7 +32,8 @@ Trade Goals é uma aplicação web que ajuda traders a acompanhar seu progresso 
 
 ## Screenshots
 
-*(Adicionar screenshots da aplicação aqui)*
+![image](https://github.com/user-attachments/assets/74ad6074-c35f-4617-b463-338ae499c2cf)
+
 
 ## Licença
 
