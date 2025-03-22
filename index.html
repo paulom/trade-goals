@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Trade Goals - Calculadora de metas diárias para traders. Acompanhe seus resultados e alcance seus objetivos financeiros com consistência.">
+  <meta name="keywords" content="trade, metas diárias, trading, investimentos, bolsa de valores, resultados financeiros">
+  <meta name="author" content="Trade Goals">
+  <meta name="theme-color" content="#1f1f2e">
+  <meta property="og:title" content="Trade Goals – Metas Diárias, Resultados Reais">
+  <meta property="og:description" content="Calculadora de metas diárias para traders. Acompanhe seus resultados e alcance seus objetivos financeiros com consistência.">
+  <meta property="og:type" content="website">
+  <title>Trade Goals – Metas Diárias, Resultados Reais</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css?v=2.0.1-noCache">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+</head>
+<body>
+  <div class="container">
+    <h1>Trade Goals – Metas Diárias, Resultados Reais</h1>
+    
+    <div class="motivacional">
+      <p>"O sucesso no trading não vem de um grande lucro em um único dia, mas da consistência e disciplina ao longo do tempo."</p>
+      <p>"Essa tabela existe para te mostrar como pequenos ganhos diários, somados com controle emocional, podem transformar seu capital."</p>
+      <p>"Não é sobre acertar o topo. É sobre repetir um processo comprovado com paciência."</p>
+      <p>"Disciplina sempre vence o entusiasmo impulsivo."</p>
+      <p>"Ganhos consistentes batem ganhos explosivos no longo prazo."</p>
+    </div>
+
+    <div class="form-group">
+      <label for="capital">Capital Inicial (R$):</label>
+      <input type="text" id="capital" class="valor-monetario" placeholder="R$ 0,00">
+
+      <label for="meta">Meta Diária (%):</label>
+      <input type="number" id="meta" value="3" step="0.1">
+
+      <label for="dias">Quantidade de Dias:</label>
+      <input type="number" id="dias" value="30">
+
+      <button id="gerarTabela">Gerar Tabela</button>
+      <button id="exportarExcel">Exportar para Excel</button>
+    </div>
+
+    <table id="tabela">
+      <thead>
+        <tr>
+          <th>Dia</th>
+          <th>Capital</th>
+          <th>Meta Diária</th>
+          <th>Ganhos Reais</th>
+          <th>Capital Atualizado</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="script.js?v=2.0.1-noCache"></script>
+</body>
+</html>
